@@ -1,0 +1,23 @@
+
+# 1. Dependências instaladas pelo npm
+node_modules/
+
+# 2. Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# 3. Ficheiros de registo e erros
+*.log
+npm-debug.log*
+
+# 4. Configurações pessoais do VS Code
+.vscode/
+
+# 5. Ficheiros temporários do Windows
+Thumbs.db
+Desktop.ini
+
+# 6. Ficheiros do sistema macOS
+.DS_Store
+
